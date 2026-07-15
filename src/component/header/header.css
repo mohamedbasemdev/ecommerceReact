@@ -27,8 +27,8 @@ header {
   width: 20%;
 }
 .top_header .container .logo {
-  width: 170px;
-  height: 70px;
+  width: 140px;
+  height: 60px;
   object-fit: cover;
   position: relative;
   left: -30px;

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaRegHeart } from "react-icons/fa";
 import { TiShoppingCart } from "react-icons/ti";
 
-import logo from "../../img/online_shopping_transparent.png";
+import logo from "../../img/online_shopping_icon_only.png";
 
 // css file
 import "./header.css";
