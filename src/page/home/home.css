@@ -27,6 +27,7 @@
   text-transform: uppercase;
   font-style: italic;
   font-weight: normal;
+  padding-top: 10px;
 }
 .hero_slider .content h1{
   font-size: 3vw;
@@ -34,8 +35,29 @@
   text-transform: capitalize;
 }
 .hero_slider .content p{
+  font-size: 1vw;
   margin: 20px 0 35px;
+}
+@media (max-width: 767px){
+  .hero_slider .content h4,
+  .hero_slider .content p{
+    font-size: 1.5vw;
+  }
+  .hero_slider .content h4{
+    padding-top: 25px;
+  }
+  .hero_slider .content p{
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
 }
 .hero_slider .content .btn{
   font-size: 16px;
+}
+@media (max-width: 767px){
+  .hero_slider .content .btn{
+    font-size: 7px;
+    padding: 5px;
+    margin-top: 0;
+  }
 }

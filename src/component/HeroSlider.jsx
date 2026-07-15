@@ -28,7 +28,7 @@ function HeroSlider() {
           <SwiperSlide>
             <div className="content">
               <h4>intrducing the new</h4>
-              <h1>microsoft xbox 360 controller</h1>
+              <h1>microsoft xbox <br/> 360 controller</h1>
               <p>windows xp/10/7.8/ ps3, n8n</p>
               <button className="btn">Shop Now</button>
             </div>
@@ -37,7 +37,7 @@ function HeroSlider() {
           <SwiperSlide>
             <div className="content">
               <h4>intrducing the new</h4>
-              <h1>microsoft xbox 360 controller</h1>
+              <h1>microsoft xbox <br/> 360 controller</h1>
               <p>windows xp/10/7.8/ ps3, n8n</p>
               <button className="btn">Shop Now</button>
             </div>
@@ -46,7 +46,7 @@ function HeroSlider() {
           <SwiperSlide>
             <div className="content">
               <h4>intrducing the new</h4>
-              <h1>microsoft xbox 360 controller</h1>
+              <h1>microsoft xbox <br/> 360 controller</h1>
               <p>windows xp/10/7.8/ ps3, n8n</p>
               <button className="btn">Shop Now</button>
             </div>
