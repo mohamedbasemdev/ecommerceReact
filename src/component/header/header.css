@@ -117,7 +117,7 @@ header {
 }
 /* BTN HEADER */
 .btn_header {
-  background-color: blue;
+  background-color: var(--main-color);
   height: 60px;
   display: flex;
   align-items: center;
