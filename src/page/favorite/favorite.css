@@ -1,0 +1,57 @@
+:root {
+  --main-color: #ed1d26;
+  --p-color: #7b7b7b;
+  --bg-color: #f3f3f3;
+  --white-color: #fff;
+  --color-heading: #253237;
+  --border-color: #d6d6d6d5;
+}
+.favorite {
+  margin-top: 20px;
+}
+.favorite .top_slide h2 {
+  color: var(--main-color);
+  margin-bottom: 10px;
+}
+.favorite .top_slide p.description {
+  position: relative;
+  border-bottom: 2px solid #999999c9;
+  padding-bottom: 15px;
+}
+.favorite .top_slide p.description::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  border-bottom: 2px solid var(--main-color);
+  width: 150px;
+}
+.favorite .content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+  margin-top: 20px;
+}
+.favorite .products .product {
+  position: relative;
+  overflow: hidden;
+}
+.favorite .products .product .image {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.favorite .products .product img {
+  width: auto;
+  height: 120px;
+  object-fit: cover;
+}
+.favorite .products .product .product_icons {
+  position: absolute;
+  right: -40px;
+}
+.favorite .products .product:hover .product_icons {
+  right: 10px;
+}

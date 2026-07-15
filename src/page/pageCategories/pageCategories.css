@@ -1,0 +1,26 @@
+:root {
+  --main-color: #ed1d26;
+  --p-color: #7b7b7b;
+  --bg-color: #f3f3f3;
+  --white-color: #fff;
+  --color-heading: #253237;
+  --border-color: #d6d6d6d5;
+}
+.page_categories .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+  position: relative;
+}
+.page_categories .products .product .image {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page_categories .products .product img {
+  width: auto;
+  height: 120px;
+  object-fit: cover;
+}

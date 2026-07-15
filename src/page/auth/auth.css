@@ -1,0 +1,32 @@
+:root {
+  --main-color: #ed1d26;
+  --p-color: #7b7b7b;
+  --bg-color: #f3f3f3;
+  --white-color: #fff;
+  --color-heading: #253237;
+  --border-color: #d6d6d6d5;
+}
+.login,
+.register{
+    margin-top: 20px;
+}
+.login form,
+.register form{
+    max-width: 500px;
+    margin: auto;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    padding: 10px;
+}
+.login form input,
+.register form input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.login form .btn:hover,
+.register form .btn:hover{
+    scale: 1;
+}
